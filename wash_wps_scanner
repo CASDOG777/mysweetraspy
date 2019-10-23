@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Wash scans the network for WPA and WPA2 with WPS enabled allowing easy password cracking
+
+wash --interface wlan0

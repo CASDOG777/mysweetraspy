@@ -1,0 +1,9 @@
+#!/bin/bash
+# lets try something
+cd /users/caseyjones/Desktop
+mkdir testfile
+cd testfile
+touch test1
+echo "this is a test" > test1
+cat test1
+

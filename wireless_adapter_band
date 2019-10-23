@@ -1,0 +1,10 @@
+#!/bin/bash
+#Change the band/frequency that the wireless adapter sniffs on 5g or 2.4g
+#band "a" = 5g
+#band bg = 2.4g
+#band abg = 5g and 2.4g
+#Note sniffing on both bands at the same time may reduce speeds
+
+airodump-ng --band a wlan0
+
+

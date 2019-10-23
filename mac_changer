@@ -1,0 +1,5 @@
+#!/bin/bash
+#Change MAC address
+ifconfig wlan0 down
+ifconfig wlan0 hw ether ab:12:d3:11:67:n7
+ifconfig wlan0 up
